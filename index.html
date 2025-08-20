@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRAVEL</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: black;
+    }
+    h2 {
+      color:#2ecc71;
+    }
+    p {
+      color:#ffffff;
+    }
+    /* Efecto zoom en imágenes */
+    .img-zoom {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+    .img-zoom:hover {
+      transform: scale(1.1);
+    }
+    .section-spacing {
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid p-0">
+
+    <!-- VIDEO PRINCIPAL -->
+    <div class="row">
+      <div class="col-12">
+        <video class="w-100" autoplay muted loop>
+          <source src="img/Diseño sin título (1).mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <div class="section-spacing"></div>
+
+    <!-- SECCION 3 COLUMNAS -->
+    <div class="row text-center">
+      <div class="col-12 col-md-4 mb-4">
+        <h2>Aventuras que Inspiran</h2>
+        <p>Explora paisajes únicos, culturas fascinantes y experiencias inolvidables...</p>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <h2>Destinos Inolvidables</h2>
+        <p>Descubre lugares icónicos y rincones secretos que combinan historia y naturaleza...</p>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <h2>Viaja Sin Límites</h2>
+        <p>Vive la libertad de explorar sin fronteras, disfrutando maravillas ocultas...</p>
+      </div>
+    </div>
+
+    <div class="section-spacing"></div>
+
+    <!-- TITULO DESTINOS -->
+    <div class="row">
+      <div class="col-12 text-center py-3" style="background-color: #2ecc71;">
+        <h1 style="color: #ffffff;">Destinos</h1>
+      </div>
+    </div>
+
+    <div class="section-spacing"></div>
+
+    <!-- DESTINOS (4 COLUMNAS RESPONSIVE) -->
+    <div class="row text-center">
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <img class="img-zoom img-fluid" src="img/IM1 MURALLA CHINA.802Z.png" alt="Muralla China">
+        <h2>Gran Muralla China</h2>
+        <p>Maravilla milenaria entre montañas y valles, rodeada de cerezos en flor...</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <img class="img-zoom img-fluid" src="img/IMG 2 DUBAI CIUDAD MODERNA.874Z.png" alt="Dubái">
+        <h2>Skyline de Dubái</h2>
+        <p>Horizonte futurista con el Burj Khalifa, lujo y experiencias cosmopolitas...</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <img class="img-zoom img-fluid" src="img/IMG 3 PIRAMIDES.633Z.png" alt="Pirámides">
+        <h2>Pirámides de Guiza</h2>
+        <p>Estructuras majestuosas en el desierto dorado, misterio e historia ancestral...</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <img class="img-zoom img-fluid" src="img/IMG 4 mediterranio.531Z.png" alt="Mediterráneo">
+        <h2>Ciudad costera mediterránea</h2>
+        <p>Casas coloridas sobre acantilados, agua turquesa y cultura marítima vibrante...</p>
+      </div>
+    </div>
+
+    <div class="section-spacing"></div>
+
+    <!-- IMAGEN FINAL -->
+    <div class="row">
+      <div class="col-12">
+        <img src="img/Encabezado (2).jpg" class="img-fluid" alt="Encabezado">
+      </div>
+    </div>
+
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
